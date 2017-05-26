@@ -18,7 +18,7 @@ class AddressTableView: UIView, UITableViewDataSource, UITableViewDelegate {
     var indexRow:String?
     var datas:[AnyObject]?
     var tableView:UITableView?
-    var block:((selectedIndex:Int)-> Void)?
+    var block:((selectedIndex:Int,content:String,nextArray:[AnyObject]?)-> Void)?
     
     override private init(frame: CGRect) {
         super.init(frame: frame)
@@ -75,7 +75,18 @@ class AddressTableView: UIView, UITableViewDataSource, UITableViewDelegate {
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         indexRow = "\(indexPath.row)"
         tableView.reloadData()
-        block?(selectedIndex: indexPath.row)
+        var content:String?
+        var nextArray:[AnyObject]?
+        if let province = datas?[indexPath.row] as? Province {
+            content = province.state ?? ""
+            nextArray = province.cities
+        }else if let city = datas?[indexPath.row] as? City {
+            content = city.city ?? ""
+            nextArray = city.areas
+        }else if let str = datas?[indexPath.row] as? String{
+            content = str
+        }
+        block?(selectedIndex:indexPath.row,content:content ?? "",nextArray:nextArray)
     }
  
 
