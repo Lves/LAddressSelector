@@ -1,0 +1,6 @@
+framework module Pods_AddressSelectionTests {
+  umbrella header "Pods-AddressSelectionTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
