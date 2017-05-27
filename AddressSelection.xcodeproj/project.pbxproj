@@ -18,8 +18,6 @@
 		6CAB21051ECBF5C000CD6337 /* AddressSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB21041ECBF5C000CD6337 /* AddressSelectionTests.swift */; };
 		6CAB21101ECBF5C000CD6337 /* AddressSelectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB210F1ECBF5C000CD6337 /* AddressSelectionUITests.swift */; };
 		6CE4EAF61ECBF6E0009C6580 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4EAF51ECBF6E0009C6580 /* area.plist */; };
-		6CE4EAF91ECBF8A0009C6580 /* ChooseAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4EAF81ECBF8A0009C6580 /* ChooseAddressView.swift */; };
-		6CE4EAFB1ECBF99F009C6580 /* ChooseAddressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4EAFA1ECBF99F009C6580 /* ChooseAddressView.xib */; };
 		6CE4EB001ECC3EB6009C6580 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4EAFF1ECC3EB6009C6580 /* Province.swift */; };
 		6CE4EB021ECC5836009C6580 /* NSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4EB011ECC5836009C6580 /* NSString+Extension.swift */; };
 		7A19EAD4E4CB9642AADD3EFE /* Pods_AddressSelection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7333E2C243D11BA5E072A /* Pods_AddressSelection.framework */; };
@@ -63,8 +61,6 @@
 		6CAB210F1ECBF5C000CD6337 /* AddressSelectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSelectionUITests.swift; sourceTree = "<group>"; };
 		6CAB21111ECBF5C000CD6337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CE4EAF51ECBF6E0009C6580 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
-		6CE4EAF81ECBF8A0009C6580 /* ChooseAddressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseAddressView.swift; sourceTree = "<group>"; };
-		6CE4EAFA1ECBF99F009C6580 /* ChooseAddressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseAddressView.xib; sourceTree = "<group>"; };
 		6CE4EAFF1ECC3EB6009C6580 /* Province.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
 		6CE4EB011ECC5836009C6580 /* NSString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Extension.swift"; sourceTree = "<group>"; };
 		72F7333E2C243D11BA5E072A /* Pods_AddressSelection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressSelection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,8 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				6CE4EAFE1ECC3E99009C6580 /* Model */,
-				6CE4EAF81ECBF8A0009C6580 /* ChooseAddressView.swift */,
-				6CE4EAFA1ECBF99F009C6580 /* ChooseAddressView.xib */,
 			);
 			path = ChooseLocationView;
 			sourceTree = "<group>";
@@ -326,7 +320,6 @@
 			files = (
 				6CAB20FA1ECBF5C000CD6337 /* LaunchScreen.storyboard in Resources */,
 				6CE4EAF61ECBF6E0009C6580 /* area.plist in Resources */,
-				6CE4EAFB1ECBF99F009C6580 /* ChooseAddressView.xib in Resources */,
 				6CAB20F71ECBF5C000CD6337 /* Assets.xcassets in Resources */,
 				6CAB20F51ECBF5C000CD6337 /* Main.storyboard in Resources */,
 			);
@@ -496,7 +489,6 @@
 				6CE4EB021ECC5836009C6580 /* NSString+Extension.swift in Sources */,
 				6C45151B1ED6873F003F6465 /* AddressTableView.swift in Sources */,
 				6CAB20F01ECBF5C000CD6337 /* AppDelegate.swift in Sources */,
-				6CE4EAF91ECBF8A0009C6580 /* ChooseAddressView.swift in Sources */,
 				6CE4EB001ECC3EB6009C6580 /* Province.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

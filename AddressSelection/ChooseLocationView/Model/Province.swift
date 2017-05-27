@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import MJExtension
 class City: NSObject {
     var city:String?
     var areas:[String]?

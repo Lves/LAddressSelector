@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 struct LoanConst {
     static let ScreenW = UIScreen.mainScreen().bounds.size.width
     static let ScreenH = UIScreen.mainScreen().bounds.size.height
