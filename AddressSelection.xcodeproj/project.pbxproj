@@ -10,6 +10,8 @@
 		0CB06325D9754E94482FF47D /* Pods_AddressSelectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA17E1914E638804473F682 /* Pods_AddressSelectionUITests.framework */; };
 		6C45151B1ED6873F003F6465 /* AddressTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45151A1ED6873F003F6465 /* AddressTableView.swift */; };
 		6C45151D1ED68E36003F6465 /* LoanAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45151C1ED68E36003F6465 /* LoanAddressView.swift */; };
+		6C7D382C1ED9265C005B24C8 /* NSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D382A1ED9265C005B24C8 /* NSString+Extension.swift */; };
+		6C7D382D1ED9265C005B24C8 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7D382B1ED9265C005B24C8 /* Province.swift */; };
 		6CAB20F01ECBF5C000CD6337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB20EF1ECBF5C000CD6337 /* AppDelegate.swift */; };
 		6CAB20F21ECBF5C000CD6337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB20F11ECBF5C000CD6337 /* ViewController.swift */; };
 		6CAB20F51ECBF5C000CD6337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CAB20F31ECBF5C000CD6337 /* Main.storyboard */; };
@@ -18,8 +20,6 @@
 		6CAB21051ECBF5C000CD6337 /* AddressSelectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB21041ECBF5C000CD6337 /* AddressSelectionTests.swift */; };
 		6CAB21101ECBF5C000CD6337 /* AddressSelectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB210F1ECBF5C000CD6337 /* AddressSelectionUITests.swift */; };
 		6CE4EAF61ECBF6E0009C6580 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CE4EAF51ECBF6E0009C6580 /* area.plist */; };
-		6CE4EB001ECC3EB6009C6580 /* Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4EAFF1ECC3EB6009C6580 /* Province.swift */; };
-		6CE4EB021ECC5836009C6580 /* NSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE4EB011ECC5836009C6580 /* NSString+Extension.swift */; };
 		7A19EAD4E4CB9642AADD3EFE /* Pods_AddressSelection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7333E2C243D11BA5E072A /* Pods_AddressSelection.framework */; };
 		7B8E55CE2325D8569A1B62D2 /* Pods_AddressSelectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0555CDE66CF50E5DBCFF8C41 /* Pods_AddressSelectionTests.framework */; };
 /* End PBXBuildFile section */
@@ -47,6 +47,8 @@
 		4A2928FE9FD95AFDBABA07E2 /* Pods-AddressSelection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressSelection.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddressSelection/Pods-AddressSelection.release.xcconfig"; sourceTree = "<group>"; };
 		6C45151A1ED6873F003F6465 /* AddressTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableView.swift; sourceTree = "<group>"; };
 		6C45151C1ED68E36003F6465 /* LoanAddressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanAddressView.swift; sourceTree = "<group>"; };
+		6C7D382A1ED9265C005B24C8 /* NSString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Extension.swift"; sourceTree = "<group>"; };
+		6C7D382B1ED9265C005B24C8 /* Province.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
 		6CAB20EC1ECBF5C000CD6337 /* AddressSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAB20EF1ECBF5C000CD6337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CAB20F11ECBF5C000CD6337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,8 +63,6 @@
 		6CAB210F1ECBF5C000CD6337 /* AddressSelectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSelectionUITests.swift; sourceTree = "<group>"; };
 		6CAB21111ECBF5C000CD6337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CE4EAF51ECBF6E0009C6580 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
-		6CE4EAFF1ECC3EB6009C6580 /* Province.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Province.swift; sourceTree = "<group>"; };
-		6CE4EB011ECC5836009C6580 /* NSString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Extension.swift"; sourceTree = "<group>"; };
 		72F7333E2C243D11BA5E072A /* Pods_AddressSelection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressSelection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C880A79F16C0554FEC2DC5 /* Pods-AddressSelectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressSelectionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressSelectionTests/Pods-AddressSelectionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8AC271AED864CBB124B00DD2 /* Pods-AddressSelectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressSelectionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddressSelectionUITests/Pods-AddressSelectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,10 +102,20 @@
 		6C4515171ED68684003F6465 /* AddressView */ = {
 			isa = PBXGroup;
 			children = (
+				6C7D38291ED9265C005B24C8 /* Model */,
 				6C45151A1ED6873F003F6465 /* AddressTableView.swift */,
 				6C45151C1ED68E36003F6465 /* LoanAddressView.swift */,
 			);
 			path = AddressView;
+			sourceTree = "<group>";
+		};
+		6C7D38291ED9265C005B24C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C7D382A1ED9265C005B24C8 /* NSString+Extension.swift */,
+				6C7D382B1ED9265C005B24C8 /* Province.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		6CAB20E31ECBF5C000CD6337 = {
@@ -134,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				6C4515171ED68684003F6465 /* AddressView */,
-				6CE4EAF71ECBF87C009C6580 /* ChooseLocationView */,
 				6CE4EAF51ECBF6E0009C6580 /* area.plist */,
 				6CAB20EF1ECBF5C000CD6337 /* AppDelegate.swift */,
 				6CAB20F11ECBF5C000CD6337 /* ViewController.swift */,
@@ -162,23 +171,6 @@
 				6CAB21111ECBF5C000CD6337 /* Info.plist */,
 			);
 			path = AddressSelectionUITests;
-			sourceTree = "<group>";
-		};
-		6CE4EAF71ECBF87C009C6580 /* ChooseLocationView */ = {
-			isa = PBXGroup;
-			children = (
-				6CE4EAFE1ECC3E99009C6580 /* Model */,
-			);
-			path = ChooseLocationView;
-			sourceTree = "<group>";
-		};
-		6CE4EAFE1ECC3E99009C6580 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				6CE4EAFF1ECC3EB6009C6580 /* Province.swift */,
-				6CE4EB011ECC5836009C6580 /* NSString+Extension.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		C181C4FFF71CF3E4CB2C31C5 /* Pods */ = {
@@ -485,11 +477,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CAB20F21ECBF5C000CD6337 /* ViewController.swift in Sources */,
+				6C7D382C1ED9265C005B24C8 /* NSString+Extension.swift in Sources */,
 				6C45151D1ED68E36003F6465 /* LoanAddressView.swift in Sources */,
-				6CE4EB021ECC5836009C6580 /* NSString+Extension.swift in Sources */,
+				6C7D382D1ED9265C005B24C8 /* Province.swift in Sources */,
 				6C45151B1ED6873F003F6465 /* AddressTableView.swift in Sources */,
 				6CAB20F01ECBF5C000CD6337 /* AppDelegate.swift in Sources */,
-				6CE4EB001ECC3EB6009C6580 /* Province.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
